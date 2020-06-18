@@ -1,0 +1,54 @@
+html, body, div, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	line-height: 1;
+	background: linear-gradient(to bottom, #BE77FF 10%, #5B00AE 90%);
+	color: #fff;
+	height: 100vh;
+}
+
+#background {
+ 	height: 100%;
+}
+
+#password {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%); 
+	background-color: transparent;
+	font-size: 6.5rem;
+	text-align: center;
+}
+
+
+.instructions {
+	position: fixed;
+	top: 40px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	font-size: 1.3rem;
+}
+
+footer {
+	position: fixed;
+	bottom: 30px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+} 
+
+footer a {
+	color: #fff;
+	font-size: 1.1rem;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+	padding-bottom: 3px;
+}
